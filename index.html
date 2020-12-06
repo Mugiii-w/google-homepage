@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <html>
     <style>
-        .button_font{
-            font-family: Arial, Helvetica, sans-serif;
+        .button_style{
+            font-family: arial, sans-serif;
+            padding: 0 16px;
+            background-color: #f2f2f2;
+            border-radius: 4px;
+            border: 1px solid #f2f2f2;
+            color: #5F6368;
+            margin: 11px 4px;
+            height: 30px;
+            text-align: center;
+            cursor: pointer;
         }
         .center{
         display: block;
@@ -19,6 +28,7 @@
 
     li{
         display: inline;
+        font-family: arial, sans-serif;
     }
 
     h1{
@@ -31,30 +41,40 @@
         margin-top: 100px;
     }
 
+
+
     </style>
     <header>
-        <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-        </ul>
+        <div>
+            <ul>
+                <li>About</li>
+                <li>Store</li>
+            </ul>
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>
+            </ul>
+        </div>
     </header>
     <body>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
         alt="Google Logo" class="center">
-        <button type="button" class="button_font">Google Search</button>
-        <button type="button" class="button_font">I'm Feeling Lucky</button>
+        <button type="button" class="button_style center">Google Search</button>
+        <button type="button" class="button_style center">I'm Feeling Lucky</button>
     </body>
     <h1>Explore the best holiday shopping deals from across the web</h1>
     <footer>
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+        <div>
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search works</li>
+            </ul>
+            <ul>
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Settings</li>
+            </ul>
+        </div>
     </footer>
 </html>
