@@ -35,8 +35,10 @@
         .right{
             float: right;
         }
-
-        ul li{
+        ul{
+            display: inline-block;
+        }
+        li{
             display: inline-block;
             font-family: arial, sans-serif;
             padding-left: 15px;
@@ -59,11 +61,11 @@
     </style>
     <header>
         <div>
-            <ul>
+            <ul class= "right">
                 <li>About</li>
                 <li>Store</li>
             </ul>
-            <ul>
+            <ul class= "left">
                 <li>Gmail</li>
                 <li>Images</li>
             </ul>
@@ -72,7 +74,7 @@
     <body>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
         alt="Google Logo" class="center">
-        <div class= "inline_content">
+        <div style="text-align:center;">
         <button type="button" class="button_style center">Google Search</button>
         <button type="button" class="button_style center">I'm Feeling Lucky</button>
         </div>
@@ -80,12 +82,12 @@
     <h1>Explore the best holiday shopping deals from across the web</h1>
     <footer>
         <div>
-            <ul>
+            <ul class= "right">
                 <li>Advertising</li>
                 <li>Business</li>
                 <li>How Search works</li>
             </ul>
-            <ul>
+            <ul class= "left">
                 <li>Privacy</li>
                 <li>Terms</li>
                 <li>Settings</li>
